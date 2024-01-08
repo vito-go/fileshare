@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=fileshare
+Name[zh_CN]=文件分享
+Comment=fileshare
+Comment[zh_CN]=文件分享
+Version=v0.0.1
+GenericName=File Share
+Exec=/opt/fileshare/fileshare %f
+Icon=/opt/fileshare/logo.png
+Terminal=false
+Type=Application
+Categories=Network
+StartupNotify=true

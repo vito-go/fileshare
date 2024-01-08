@@ -1,0 +1,9 @@
+Package: fileshare
+Version: 0.0.1
+Section: NetWork
+Priority: optional
+Architecture: amd64
+Installed-Size: 34212
+Maintainer: liushihao888@gmail.com
+Provides: liushihao
+Description: File Share
