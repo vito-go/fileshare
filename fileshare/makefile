@@ -17,10 +17,11 @@ build-linux:
 	dpkg -b linux-deb/ bin/fileshare.deb
 build-windows:
 	flutter build windows
-	mkdir  build/windows/x64/runner/Release/lib/
+	- mkdir  build/windows/x64/runner/Release/lib/
 	cp  lib/*_windows.so  build/windows/x64/runner/Release/lib/
 	- mkdir bin
-	mv build/windows/x64/runner/Release bin/fileshare-windows
+	rm -rf bin/fileshare-windows
+	cp -r build/windows/x64/runner/Release bin/fileshare-windows
 clean:
 	rm -rf bin
 	rm -rf linux-deb/opt/fileshare/*

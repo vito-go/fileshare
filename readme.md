@@ -2,7 +2,7 @@
 ```shell
 make build
 ```
-the binary file will be generated in the `bin` directory. linux and android are supported.
+the binary file will be generated in the `bin` directory. linux, windows and android are supported.
 
 
 ## Project Tree
