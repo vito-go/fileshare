@@ -10,6 +10,7 @@ build-apk:
 	mv build/app/outputs/flutter-apk/app-release.apk ./bin/fileshare-arm64-v8a-release.apk
 build-linux:
 	flutter build linux
+	- mkdir -p linux-deb/opt/fileshare/lib
 	cp -r build/linux/x64/release/bundle/* linux-deb/opt/fileshare/
 	cp  lib/*.so linux-deb/opt/fileshare/lib/
 	cp  linux-deb/logo.png linux-deb/opt/fileshare/
