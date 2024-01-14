@@ -31,3 +31,14 @@ the binary file will be generated in the `bin` directory. linux, windows and and
   - Make for Windows
       - https://gnuwin32.sourceforge.net/packages/make.htm
       - Complete package, except sources
+## Preview
+
+- Run in Linux and Android
+
+<img src="file-share-home.png" style="width: 49%"> <img src="file-share-android-home.png" style="width: 49%">
+
+---
+- Open in browser
+
+<img src="file-share-filelist.png" style="width: 49%"> <img src="file-share-upload.png" style="width: 49%"> <img src="file-share-clipboard.png" style="width: 49%">
+
