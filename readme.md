@@ -35,10 +35,10 @@ the binary file will be generated in the `bin` directory. linux, windows and and
 
 - Run in Linux and Android
 
-<img src="file-share-home.png" style="width: 49%"> <img src="file-share-android-home.png" style="width: 49%">
+<img src="file-share-home.png" style="width: 256px"> <img src="file-share-android-home.png" style="width: 256px">
 
 ---
 - Open in browser
 
-<img src="file-share-filelist.png" style="width: 49%"> <img src="file-share-upload.png" style="width: 49%"> <img src="file-share-clipboard.png" style="width: 49%">
+<img src="file-share-filelist.png" style="width: 256px"> <img src="file-share-upload.png" style="width: 256px"> <img src="file-share-clipboard.png" style="width: 256px">
 
