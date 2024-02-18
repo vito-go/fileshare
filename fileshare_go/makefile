@@ -14,8 +14,11 @@ all1:
 #// report cannot open shared object file: No such file or directory
 
 # Important: Please set the CC environment variable to the compiler of your platform.
-CC=~/Android/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android33-clang
-#CC=~/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android33-clang
+# e.g.
+# CC=~/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android33-clang
+# Or
+# export PATH="$HOME/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/linux-x86_64/bin:$PATH"
+CC=aarch64-linux-android33-clang
  	# if not set CC, will report error:
 	# runtime/cgo
 	#gcc_android.c:6:10: fatal error: android/log.h: No such file or directory

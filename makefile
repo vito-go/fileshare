@@ -53,7 +53,7 @@ build-android:
 	@echo "all done, look at the directory bin/"
 	@echo "--------$$ ls -lha bin --------"
 	@ls -lha bin
-build-linux-and-android:
+build-la:
 	cd fileshare_web && make build-web
 	cp -r fileshare_web/build/web/ ./fileshare_go/server/
 	cd fileshare_go && make build-so-linux

@@ -1,2 +1,4 @@
 github.com/vito-go/daemon v0.0.0-20220228024854-b1149159fc48 h1:HPfI8Rjio2kLgTHu+uz3wsJhCIOcO9KrJYXIAAOcOPI=
 github.com/vito-go/daemon v0.0.0-20220228024854-b1149159fc48/go.mod h1:Bz+QOeiy+pbVyc/J6ekOldvl53I4Y4axdVPFzdcd+KE=
+github.com/vito-go/daemon v0.0.0-20240218003651-07b28810835a h1:gz+hTzIFdHRUSNlxKivmRnzoltieh5IZmjkvDd4KtJw=
+github.com/vito-go/daemon v0.0.0-20240218003651-07b28810835a/go.mod h1:Bz+QOeiy+pbVyc/J6ekOldvl53I4Y4axdVPFzdcd+KE=
