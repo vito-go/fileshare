@@ -124,7 +124,7 @@ class ServerState extends State<Server> {
     children.add(ListTile(
       title:
           Text("Sharing Directory (Allow Upload: ${serverInfo.allowUpload})"),
-      subtitle: Text(rootDir),
+      subtitle: Text(serverInfo.dir),
       onTap: null,
     ));
     children.add(ListTile(
